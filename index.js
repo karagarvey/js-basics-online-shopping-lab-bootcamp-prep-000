@@ -77,7 +77,7 @@ function test(){
 
 function placeOrder(cardNumber) {
   if (cardNumber !== undefined){
-    var charged = `Your total cost is $${total()} which will be charged to the card ${cardNumber}.`
+    var charged = `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`
     cart = []
     return charged
   } else {
